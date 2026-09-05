@@ -1,0 +1,17 @@
+# Dependency directories
+backend/target/
+frontend/node_modules/
+ai_service/.venv/
+ai_service/__pycache__/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Production build
+frontend/build/
