@@ -29,7 +29,7 @@ The Python component is named an AI service in the UI, but its current predictio
 | Frontend | React `19.2.7`, React DOM `19.2.7`, Create React App / `react-scripts` `5.0.1`, OpenLayers `10.6.1` |
 | Backend | Java `17`, Maven Wrapper `3.3.4` / Maven `3.9.16`, Spring Boot `3.2.5`, Spring Web, Spring Data JPA, Hibernate Spatial, Lombok |
 | Routing | JGraphT `1.5.2` |
-| Database | PostgreSQL `16` or `17` with the PostGIS extension |
+| Database | PostgreSQL `18` with the PostGIS extension |
 | AI service | Python `3.13`, FastAPI, Uvicorn, NumPy, Joblib, Pydantic |
 | Map data | OpenStreetMap tiles and bundled Islamabad road-network JSON |
 
@@ -40,7 +40,7 @@ Install the following before starting the project:
 - Git
 - Node.js `20 LTS` with Corepack enabled
 - Java Development Kit `17`
-- PostgreSQL `16` or `17`, including PostGIS for the same major version
+- PostgreSQL `18`, including PostGIS for the same major version
 - Python `3.13`
 
 Maven does not need to be installed separately: the included Maven Wrapper downloads the required Maven version on its first run.
