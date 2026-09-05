@@ -78,7 +78,7 @@ Replace `<repository-url>` with the GitHub clone URL.
    spring.datasource.password=YOUR_POSTGRES_PASSWORD
    ```
 
-   Replace `YOUR_POSTGRES_USERNAME` and `YOUR_POSTGRES_PASSWORD` with the PostgreSQL credentials on the supervisor's machine. For a typical local PostgreSQL installation, the username is `postgres`; the password is the one chosen during PostgreSQL installation. The database name, host, or port can also be changed there if required.
+   Replace `YOUR_POSTGRES_USERNAME` and `YOUR_POSTGRES_PASSWORD` with the PostgreSQL credentials on your machine. For a typical local PostgreSQL installation, the username is `postgres`; the password is the one chosen during PostgreSQL installation. The database name, host, or port can also be changed there if required.
 
 5. The backend automatically runs [`database-setup.sql`](backend/src/main/resources/database-setup.sql) at startup. It creates the tables and indexes if they do not exist. The database account must be permitted to create/use the PostGIS extension; otherwise create the extension as a PostgreSQL administrator before starting the backend.
 
